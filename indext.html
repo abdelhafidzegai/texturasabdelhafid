@@ -5,7 +5,7 @@
   <body>
    <a-scene>
     <a-assets>
-        <a-entity>
+        
         <img id="suelo" src="suelos.jpg">
         <img id="pared" src="paredes.jpg">
         <img id="vigas" src="vigas.jpg">,
@@ -16,10 +16,13 @@
        <a-box position="-1.4 1.7 0.0" rotation="90 0 90" depth="3" height="0.2" widht="3" src="#pared"></a-box>
       <a-box position="0 3.2 0.0" rotation="0 0 0" depth="3" height="0.2" widht="3" src="#viga"></a-box>
        </a-entity>
-      <a-light type="ambient#ECECEC" color="blue" position="3 3 3"></a-light>
+      <a-light position="3 3 3" type="ambient" rotation=""0 0 0" color="#FFF" ></a-light>
       <a-camera id="camera"></a-camera>
       <a-sky color="#ECECEC" position="0 1 0"></a-sky>
     </a-scene>
+    <a-entity id=""ring" position=""-3 1 3 ">
+      <a-camera id="camera"></a-camera>
+    </a-entity>"
 </head>
   </body>
 </html>
